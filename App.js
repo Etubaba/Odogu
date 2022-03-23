@@ -15,6 +15,7 @@ import {
   Text,
   View,
 } from 'react-native';
+import Home from './Src/screens/Home'
 
 import { Provider } from 'react-redux';
 
@@ -26,10 +27,10 @@ const App = () => {
   return (
     <Provider store={store}>
       <NavigationContainer>
-        <View>
-          <Text className={tw`bg-green-900`}>Hello World</Text>
-        </View>
+        <Home />
+
       </NavigationContainer>
+
     </Provider>
   );
 };
