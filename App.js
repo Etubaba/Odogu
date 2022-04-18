@@ -41,10 +41,12 @@ const App = () => {
               options={{ headerShown: false }} />
             <Stack.Screen
               name='food'
-              component={Food} />
+              component={Food}
+              options={{ headerShown: false }} />
             <Stack.Screen
               name='ride'
-              component={GetRide} />
+              component={GetRide}
+              options={{ headerShown: false }} />
 
           </Stack.Navigator>
 
